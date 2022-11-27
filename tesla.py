@@ -1,12 +1,3 @@
-'''
->tesla-inventory-price-scraper.py<
-@Author: Maxwell Mowbray
-@Email: mmowbray@mentlegen.com
-@Date: April 2020
-@Description:
-This script scrapes Tesla's car inventory website and alerts the user if a car under a certain price appears.
-'''
-
 import json
 import pprint
 import time
