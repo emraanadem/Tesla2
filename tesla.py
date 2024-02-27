@@ -69,7 +69,7 @@ def runner(zipcod):
                 print("FOUND A CAR for $" + str(car['price'][0]))
 threads = []
 for zipcode in zips:
-    if len(threading.enumerate()) < 100:
+    if len(threading.enumerate()) < 10:
         t = threading.Thread(target = runner, args = [zipcode])
         threads.append(t)
         t.start()
